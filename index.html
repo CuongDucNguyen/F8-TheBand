@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="./assets/grid.css">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="logo">Logo</div>
+
+            <div class="hamburger-menu">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li class="change">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#Band">Band</a>
+                    </li>
+                    <li>
+                        <a href="#Tour">Tour</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                    <li class="expand-nav">
+                        <a href="#" >More
+                            <i class="fas fa-chevron-down nav-arrow-down"></i>
+                        </a>
+                        <ul class="subnav">
+                            <li>
+                                <a href="#">Merchandise</a>
+                            </li>
+                            <li>
+                                <a href="#">Extras</a>
+                            </li>
+                            <li>
+                                <a href="#">Media</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="search-btn">
+                <i class="search-icon fas fa-search"></i>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="slider">
+            <div class="text-content">
+                <h2>NEW YORK</h2>
+                <p>The atmosphere in New York is lorem ipsum.</p>
+            </div>
+        </div>
+
+        <div class="containerz">
+            <div id="Band" class="content-section">
+                <h2 class="section-title">THE BAND</h2>
+                <p class="section-sub-title">We love music!</p>
+                <p class="section-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                
+                <div class="band-team grid">
+                    <div class="member-band row">
+                        <div class="member-item col l-4 m-4 c-12">
+                            <p class="member-name">Name</p>
+                            <img src="./img/img-band/bandmember.jpg" alt="Name" class="member-img">
+                        </div>
+    
+                        <div class="member-item col l-4 m-4 c-12">
+                            <p class="member-name">Name</p>
+                            <img src="./img/img-band/bandmember.jpg" alt="Name" class="member-img">
+                        </div>
+    
+                        <div class="member-item col l-4 m-4 c-12">
+                            <p class="member-name">Name</p>
+                            <img src="./img/img-band/bandmember.jpg" alt="Name" class="member-img">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="Tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-title">TOUR DATES</h2>
+                    <p class="section-sub-title">Lorem ipsum we'll play you some music. </br>Remember to book your tickets!</p>
+
+                    <!-- tickets-list -->
+                    <ul class="tickets-list">
+                        <li>September <span class="sold-out">Sold Out!</span></li>
+                        <li>October <span class="sold-out">Sold Out!</span></li>
+                        <li>November <span class="quantity-tickets">3</span></li>
+                    </ul>
+
+                    <!-- place buy tickets -->
+                    <div class="places grid">
+                        <ul class="places-list row">
+                            <li class="place-item col l-4 m-4 c-12">
+                                <img src="./img/sell-places/place-1.jpg" alt="paris" class="place-img">
+                                <div class="place-body">
+                                    <p class="place-heading">Paris</p>
+                                    <p class="place-datetime">Friday 27 November 2015</p>
+                                    <button class="btn">Buy Tickets</button>
+                                </div>
+                            </li>
+                            <li class="place-item col l-4 m-4 c-12">
+                                <img src="./img/sell-places/place-2.jpg" alt="New York" class="place-img">
+                                <div class="place-body">
+                                    <p class="place-heading">New York</p>
+                                    <p class="place-datetime">Saturday 28 November 2015</p>
+                                    <button class="btn">Buy Tickets</button>
+                                </p>
+                            </li>
+                            <li class="place-item col l-4 m-4 c-12">
+                                <img src="./img/sell-places/place-3.jpg" alt="San Francisco" class="place-img">
+                                <div class="place-body">
+                                    <p class="place-heading">San Francisco</p>
+                                    <p class="place-datetime">Sunday 29 November 2015</p>
+                                    <button class="btn">Buy Tickets</button>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="Contact" class="content-section">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-sub-title">We love our fans!</p>
+
+                <div class="contact grid">
+                    <div class="row">
+                        <div class="contact-navbar col l-4 m-4 c-12">
+                            <p>Fan? Drop a note.</p>
+                            <p>
+                                <i class="fas fa-map-marker-alt contact-places"></i>
+                                Chicago, US
+                            </p>
+                            <p>
+                                <i class="fas fa-mobile-alt contact-phone"></i>
+                                Phone: +00 1515151515
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope contact-email"></i>
+                                Email: mail@mail.com
+                            </p>
+                            
+                        </div>
+
+                        <form class="contact-form col l-8 m-8 c-12">
+                            <div class="row">
+                                <div class="col l-6 m-6 c-12">
+                                    <input type="text" class="form-control" required placeholder="Name">
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <input type="email" class="form-control" required placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l-12 m-12 c-12">
+                                    <input type="text" class="form-control" id="comment" required placeholder="Comment">
+                                </div>
+                            </div>
+                            <input type="submit" class="submit-form btn pull-right" value="SEND"></input>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="Blog" class="content-section the-blog">
+                <h2 class="section-title">From The Blog</h2>
+
+                <ul class="nav-tabs">
+                    <li id="1" class="Bl-1 showUp"><a>Mike</a></li>
+                    <li id="2" class="Bl-2" ><a>Chandler</a></li>
+                    <li id="3" class="Bl-3"><a>Pete</a></li>
+                </ul>
+                
+                <div class="tab-content">
+                    <div id="1" class="tab__pane tab__pane--Bl-1 showUp">
+                        <h3>Mike Ross, Manager</h3>
+                        <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+                    </div>
+                    <div id="2" class="tab__pane tab__pane--Bl-2">
+                        <h3>Chandler Bing, Guitarist</h3>
+                        <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+                    </div>
+                    <div id="3" class="tab__pane tab__pane--Bl-3">
+                        <h3>Peter Griffin, Bass player</h3>
+                        <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="map-section">
+                <img src="./img/the-blog/map.jpg" alt="the-blog">
+            </div>
+
+        </div>
+
+        <div id="Footer" class="footer">
+            
+            <div class="social-list">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p class="copyright">Powered by <a href="">w3.css</a></p>
+        </div>
+        <a class="scrollTop" href="#"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

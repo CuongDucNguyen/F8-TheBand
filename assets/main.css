@@ -147,7 +147,7 @@
 /* slider */
 .slider {
     padding-top: 50%;
-    background: url(/img/slider-1.jpg) bottom center / cover no-repeat;
+    background: url(img/slider-1.jpg) bottom center / cover no-repeat;
     position: relative;
     color: #E8E8E8;
     filter: grayscale(100%);
